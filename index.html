@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="logo_cat1.png" alt="logo">
+                    <p>Приют для кошек "У меня лапки"</p>
+                </div>
+
+                <input type="checkbox" id="menu-checkbox">
+                <nav role="navigation">
+                    <label for="menu-checkbox" class="toggle-button"
+                    data-open="Menu" data-close="Close" onclick></label>
+                    <ul class="main-menu">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="info"></section>
+                <div class="back">
+                    <img src="cat1.jpeg">
+
+                        <div class="help">
+                            <h1>Help them help us</h1>
+                            <p>В нашем приюте для кошек в настоящее время много обитателей<br>
+                                Каждый из них ищет свой дом и хотел бы вернуться туда с вами.<br>
+                                Тем не менее, есть много способов поддержать животных в приюте,<br> если усыновление для вас не вариант.
+                            </p>
+
+                            <div class=button>
+                                <input class="btn" type="submit" value="Посмотреть питомца">
+                                <input class="btn_help" type="submit" value="Как помочь">
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <section class="news">
+            <div class="content">
+                <a href="https://animego.org/anime/klinok-rassekayuschiy-demonov-k902"><h2>News</h2></a>
+
+                    <div class="text">
+                        <h2>Вакцинация кошек и котят</h2>
+                        <p>
+                            От чего нужно прививать кота или кошку? Какие бывают прививки для котят?<br>
+                            В каком возрасте прививать котенка? Надо ли делать прививку от бешенства коту?
+                            Что входит в состав комплексных вакцин для кошек? Безопасно ли делать прививки для котов?
+                            Что делать, если просрочили прививку коту? <br> Эти и многие другие вопросы беспокоят владельцев наших четвероногих пациентов.<br>
+                            <a href="#">Давайте разбираться!</a>
+                        </p>
+                        <div class="text2">
+                            <h2>Калининградское котокафе пристроило сто кошек</h2>
+
+                            <p>
+                                Из калининградского кафе «Котомания» вчера уехала к новым хозяевам сотая по счету кошка.
+                                «Котомания» – первое в Калининграде антикафе, оно открылось два года назад.<br>
+                                В уютном пространстве одновременно живут до десяти кошек. Все они привиты и стерилизованы.<br>
+                                Для гостей предусмотрено общение с животными, чаепитие, настольные игры, «котопросмотры» и фотосессии.
+                                Организована продажа сувениров, есть возможность провести в котокафе мастер-класс или праздник.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="videos">
+                        <div class="video">
+                            <iframe width="450" height="280" src="https://www.youtube.com/embed/1kSaLffK890"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+
+                            <div class=video2>
+                                <iframe width="450" height="280" src="https://www.youtube.com/embed/Q8JMHzIztkw"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        </main>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        <script src="app.js"></script>
+    </body>
+</html>
+
