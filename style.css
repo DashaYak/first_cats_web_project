@@ -5,6 +5,7 @@ body {
     font-family: "raleway";
     font-size: 17px;
     color:#000;
+
 }
 
 * {
@@ -108,22 +109,24 @@ nav {
 
 .back img {
     opacity: 0.8;
-    max-width: 100%;
+    width: 100%;
     position: relative;
     float: right;
     z-index: 1;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .help {
     background-color: rgba(229,222,203, 0.5);
-    display:block;
     padding: 40px;
     border-radius: 20px;
     position: absolute;
     z-index: 2;
     margin-left: 600px;
     margin-top: 60px;
+    max-width: 100%;
+    font-size: 16px;
 }
 
 .help h1 {
@@ -173,17 +176,17 @@ nav {
 }
 
 .news {
-    background-color: #e5decb;
-    padding-bottom: 600px;
     max-width: 100%;
+    margin: 0 auto;
 }
-.content {
-    padding: 130px;
-}
-.content h2 {
-    text-transform: uppercase;
+
+.news h2 {
     text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 20px;
 }
+
 
 a:hover {
     opacity: 0.6;
@@ -197,7 +200,6 @@ a:visited {
 
 .text h2 {
     text-align: left;
-
     padding: 20px;
 
 }
@@ -210,6 +212,7 @@ a:visited {
     font-style: normal;
     font-weight: 400;
     text-align: left;
+    padding: 20px 0;
 }
 
 .text p{
@@ -235,35 +238,31 @@ a:visited {
     position: absolute;
     z-index: 2;
     letter-spacing: 1px;
-    margin-left: 500px;
+    margin-left: 600px;
+    max-width: 1500;
 }
-.text2 {
-    display: block;
-    width: 500px;
-    display:block;
-    padding-top: 60px;
-    position: absolute;
-    z-index: 2;
-    letter-spacing: 1px;
-}
+
 .video {
     float: left;
     display: block;
     margin-top: 35px;
+    max-width: 100%;
+    margin-left: 100px;
 }
 iframe {
-    border-radius: 10px;
+    padding: 20px 0;
+    border-radius: 20px;
 }
 
-.video2 {
-    display: block;
-    margin-top: 50px;
+.about {
+    background-color: antiquewhite;
+    position:relative;
+    z-index: 1;
 }
-
 .mission {
     text-align: left;
     word-wrap: break-word;
-    padding: 0 20px;
+    padding: 20px;
     display: block;
     font-family: "Raleway";
     font-weight: 400;
@@ -272,15 +271,18 @@ iframe {
     text-align: left;
     width: 600px;
     float: right;
-    margin: 60px;
+    margin-left: 600px;
+    margin-top: 40px;
     letter-spacing: 1px;
+    position: absolute;
+
 }
-.about h1 {
+.about h2 {
     text-transform: uppercase;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 750px;
 }
-.mission h2 {
+.mission h3 {
     text-transform: uppercase;
     padding-bottom: 10px;
     font-weight: bolder ;
@@ -317,6 +319,8 @@ iframe {
     letter-spacing: 1px;
     color: #5e5e5e;
     margin: 60px;
+    margin-right: 0;
+
 }
 
 .adress h2 {
@@ -337,3 +341,67 @@ iframe {
     text-decoration: none;
 }
 
+.contact {
+    padding: 20px;
+}
+
+ .contact h2 {
+    text-align: center;
+    margin-top: 160px;
+    padding: 15px;
+    padding-top: 100px;
+    font-family: "Raleway";
+ }
+
+ .contact h3 {
+     text-align: center;
+     padding: 10px;
+     padding-bottom: 40px;
+       font-family: "Raleway";
+ }
+
+ .form-group label {
+     display: block;
+     font-size: 14px;
+     color: gray;
+ }
+
+.form-group input,
+.form-group textarea {
+     width: 100%;
+     box-sizing: border-box;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     color: #000;
+     padding: 15px 0 10px;
+     outline: none;
+     font-family: inherit;
+     background: transparent;
+ }
+
+ .row {
+     display: flex;
+     margin-bottom: 20px;
+ }
+
+ .row > .form-group{
+     width: 50%;
+     margin-right: 20px;
+ }
+
+ .row > .form-group:first-child {
+     margin-bottom: 20px;
+ }
+
+ .btn {
+     background: #68645f;
+     padding: 15px 20px;
+     color: #fff;
+     border: none;
+     font-family: inherit;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     opacity: 0.9;
+ }
