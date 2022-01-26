@@ -242,11 +242,11 @@ a:visited {
     max-width: 1500;
 }
 
-.video {
+.videos {
     float: left;
     display: block;
     margin-top: 35px;
-    max-width: 100%;
+    width: 500px;
     margin-left: 100px;
 }
 iframe {
